@@ -213,11 +213,11 @@ function Benefits() {
                 lineHeight={1.7}
                 sx={{ color: "#64748B" }}
               >
-                👋 Hello! I'm <b>Umair Abbasi</b>, a passionate React Front End
-                Developer based in Karachi, Pakistan. With a focus on front-end
-                development, I thrive on creating seamless and visually
-                appealing web and mobile experiences. My expertise lies in
-                crafting user interfaces that not only meet functional
+                👋 Hello! I'm <b>Noman Gul</b>, a passionate
+                <b> Full Stack Developer </b> based in Karachi, Pakistan. With a
+                focus on front-end development, I thrive on creating seamless
+                and visually appealing web and mobile experiences. My expertise
+                lies in crafting user interfaces that not only meet functional
                 requirements but also elevate the overall user experience. 🚀 As
                 a seasoned professional in the tech industry, I've honed my
                 skills to not just meet but exceed the expectations of clients

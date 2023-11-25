@@ -1,6 +1,9 @@
 import React from "react";
 import { Container, Typography, Box, Button, Grid } from "@mui/material";
 import Paper from "@mui/material/Paper";
+import PersonIcon from "@mui/icons-material/Person";
+
+import Image from "./img/bracket.png";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faCoffee as fasFaCoffee } from '@fortawesome/pro-solid-svg-icons'
 // import { library } from '@fortawesome/fontawesome-svg-core'
@@ -10,7 +13,8 @@ import { GitHub } from "@mui/icons-material";
 import { LinkedIn } from "@mui/icons-material";
 import { Twitter } from "@mui/icons-material";
 import { Email } from "@mui/icons-material";
-import { WhatsApp } from "@mui/icons-material";
+// import PersonIcon from "@mui/icons-material/Person";
+// import BracketImage from './src/components/img/bracket.png';
 
 // import ImageIcon from "./img/bulb.png";
 
@@ -19,7 +23,7 @@ function Prices() {
     <>
       <Box py={10}>
         <Typography
-        id="pricing"
+          id="pricing"
           variant="h4"
           component="h2"
           textAlign="center"
@@ -155,10 +159,12 @@ function Prices() {
         </Grid>
       </Grid>
 
-      {/* <Image /> */}
-      <Box py={5}>
+      <Box py={15} display="flex" flexDirection="column" alignItems="center">
         <Typography variant="h6" fontWeight={700} textAlign="center">
-          Umair Dev
+      
+          <img src={Image} alt="" width={70} className="bracket" />
+          {/* <BracketImg /> */}
+          Gimme Source Code
         </Typography>
         {/* <Box display='flex' justifyContent='center' alignItems='center'className="icon" >
         
@@ -169,7 +175,12 @@ function Prices() {
      
         </Box> */}
 
-        <Box display='flex' justifyContent='center' alignItems='center'className="icon">
+        {/* <Box
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+          className="icon"
+        >
           <a href="https://github.com/umairabbasidev" target="_blank">
             <GitHub sx={{ color: "orange", margin: "5px 0px" }} />{" "}
           </a>
@@ -188,10 +199,39 @@ function Prices() {
           <a href="https://wa.me/+923302048095" target="_blank">
             <WhatsApp sx={{ color: "orange", margin: "5px 10px" }} />
           </a>
+        </Box> */}
+        <Box
+          className="icon"
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+          py={3.5}
+        >
+          <a href="https://github.com/NomanGul" target="_blank">
+            <GitHub sx={{ color: "orange", margin: "5px 0px" }} />{" "}
+          </a>
+          <a
+            href="https://www.linkedin.com/in/noman-gul/?originalSubdomain=pk"
+            target="_blank"
+          >
+            <LinkedIn sx={{ color: "orange", margin: "5px 10px" }} />
+          </a>
+
+          <a href="https://twitter.com/NomanGulKhan" target="_blank">
+            {" "}
+            <Twitter sx={{ color: "orange", margin: "5px 10px" }} />{" "}
+          </a>
+
+          <a href="mailto:nomangul2001@gmail.com" target="_blank">
+            <Email sx={{ color: "orange", margin: "5px 10px" }} />
+          </a>
+          <a href="https://www.nomangul.com/" target="_blank">
+            <PersonIcon sx={{ color: "orange", margin: "5px 10px" }} />
+          </a>
         </Box>
       </Box>
 
-      <Box display="flex" justifyContent="center" gap={2}>
+      <Box display="flex" justifyContent="center" gap={2} marginTop={-14}>
         <Typography
           variant="h6"
           fontWeight={700}
@@ -209,7 +249,7 @@ function Prices() {
       </Box>
       <Box display="flex" justifyContent="center">
         <Typography color="#64748B" lineHeight={6} variant="body2">
-          © 2023 Umair React Dev. All rights reserved.
+          © 2023 Gimme Source Code. All rights reserved.
         </Typography>
       </Box>
     </>

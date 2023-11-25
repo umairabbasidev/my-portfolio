@@ -38,14 +38,18 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static" sx={{ backgroundColor: "#fef5d1" }} elevation={0}>
+    <AppBar
+      position="static"
+      sx={{ backgroundColor: "#fef5d1" }}
+      elevation={0}
+    >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} /> */}
           <Box
-            sx={{ display: { xs: "none", md: "flex" }, mx: 1, marginTop: -1 }}
+            sx={{ display: { xs: "none", md: "flex" }, mx: 0, marginTop: -1 }}
           >
-            <img src={Image} alt="" width={90}  />
+            <img src={Image} alt="" width={90} className="logo" />
             {/* <CodeOffIcon/> */}
             {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSINBVsF-4zNNvlo95vKeu0LZEWG0LZpwdZkQ&usqp=CAU" alt="" /> */}
           </Box>
@@ -66,7 +70,7 @@ function ResponsiveAppBar() {
               cursor: "pointer",
             }}
           >
-            Umair Dev
+            Gimme Source Code
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -112,7 +116,7 @@ function ResponsiveAppBar() {
             <img src={Image} alt="" width={50} />
           </Box>
           <Typography
-            variant="h5"
+            variant="body2"
             noWrap
             component="a"
             href="#app-bar-with-responsive-menu"
@@ -123,12 +127,12 @@ function ResponsiveAppBar() {
               fontFamily: "monospace",
               fontWeight: 700,
               // letterSpacing: '.3rem',
-              color: "orange",
+              color: "black",
               textDecoration: "none",
-              px: 0.5,
+              // px: 0.5,
             }}
           >
-            Umair Dev
+            Gimme Source Code
           </Typography>
           <Box
             sx={{
