@@ -41,6 +41,7 @@ function Prices() {
         display="flex"
         alignContent="center"
         textAlign="center"
+        justifyContent="center"
         sx={{ px: { xs: 6.195, md: 20 } }}
       >
         <Grid item md={4}>
