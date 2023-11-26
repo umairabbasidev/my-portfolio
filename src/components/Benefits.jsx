@@ -108,7 +108,7 @@ function Benefits() {
                   ></path>
                 </svg>
               </Box>
-              <Box px={1.5}>Fixed price. No surprises.</Box>
+              <Box px={1.2}>Fixed price. No surprises.</Box>
             </Typography>
 
             <Typography

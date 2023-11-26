@@ -4,19 +4,11 @@ import Paper from "@mui/material/Paper";
 import PersonIcon from "@mui/icons-material/Person";
 
 import Image from "./img/bracket.png";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faCoffee as fasFaCoffee } from '@fortawesome/pro-solid-svg-icons'
-// import { library } from '@fortawesome/fontawesome-svg-core'
 
-// import { faTwitter, faFontAwesome } from '@fortawesome/free-brands-svg-icons'
 import { GitHub } from "@mui/icons-material";
 import { LinkedIn } from "@mui/icons-material";
 import { Twitter } from "@mui/icons-material";
 import { Email } from "@mui/icons-material";
-// import PersonIcon from "@mui/icons-material/Person";
-// import BracketImage from './src/components/img/bracket.png';
-
-// import ImageIcon from "./img/bulb.png";
 
 function Prices() {
   return (
@@ -49,7 +41,7 @@ function Prices() {
         display="flex"
         alignContent="center"
         textAlign="center"
-        sx={{ px: { xs: 6, md: 20 } }}
+        sx={{ px: { xs: 6.195, md: 20 } }}
       >
         <Grid item md={4}>
           <Paper elevation={2} sx={{ p: 4, borderRadius: 3.5 }}>
@@ -161,45 +153,10 @@ function Prices() {
 
       <Box py={15} display="flex" flexDirection="column" alignItems="center">
         <Typography variant="h6" fontWeight={700} textAlign="center">
-      
           <img src={Image} alt="" width={70} className="bracket" />
-          {/* <BracketImg /> */}
           Gimme Source Code
         </Typography>
-        {/* <Box display='flex' justifyContent='center' alignItems='center'className="icon" >
-        
-        <GitHub sx={{color:"orange",margin:'5px 10px'}} />
-            <LinkedIn sx={{color:"orange",margin:'5px 10px'}}/>
-            <Twitter sx={{color:"orange",margin:'5px 10px'}}/>
-            <Email sx={{color:"orange",margin:'5px 10px'}}/>
-     
-        </Box> */}
 
-        {/* <Box
-          display="flex"
-          justifyContent="center"
-          alignItems="center"
-          className="icon"
-        >
-          <a href="https://github.com/umairabbasidev" target="_blank">
-            <GitHub sx={{ color: "orange", margin: "5px 0px" }} />{" "}
-          </a>
-          <a href="https://www.linkedin.com/in/umairabbasidev" target="_blank">
-            <LinkedIn sx={{ color: "orange", margin: "5px 10px" }} />
-          </a>
-
-          <a href="https://twitter.com/umairabbasidev" target="_blank">
-            {" "}
-            <Twitter sx={{ color: "orange", margin: "5px 10px" }} />{" "}
-          </a>
-
-          <a href="mailto:muhammadumairabbasi637@gmail.com" target="_blank">
-            <Email sx={{ color: "orange", margin: "5px 10px" }} />
-          </a>
-          <a href="https://wa.me/+923302048095" target="_blank">
-            <WhatsApp sx={{ color: "orange", margin: "5px 10px" }} />
-          </a>
-        </Box> */}
         <Box
           className="icon"
           display="flex"

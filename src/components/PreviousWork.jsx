@@ -5,7 +5,7 @@ function PreviousWork() {
     <>
       <Box sx={{ backgroundColor: "#fffcef" }} paddingTop={10}>
         <Typography
-        id="previousWork"
+          id="previousWork"
           fontWeight={700}
           textAlign="center"
           variant="h5"

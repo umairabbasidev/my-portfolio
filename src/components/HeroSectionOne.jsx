@@ -88,7 +88,6 @@ function HeroSectionOne() {
         <Box>
           <img
             src="https://futureideas.dev/mockup.jpg"
-            // src="https://scontent.fkhi21-1.fna.fbcdn.net/v/t1.6435-9/79376229_451395615522624_1517808203654496256_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=be3454&_nc_eui2=AeFTRiHTZOOT5A6ffBTo07OAo8WOJtqTQ1OjxY4m2pNDU7GV7pM8JkAhLetm7eT0bxp66Fi2mPqKOLIeq84RnRy1&_nc_ohc=w71BPRs1q4oAX-NO5wU&_nc_ht=scontent.fkhi21-1.fna&oh=00_AfAqf1i4NeLGJCAv8epgPpjbwZNDBKQkPky9ycpQKi8LkQ&oe=657BC289"
             alt=""
             width={320}
             height={450}
