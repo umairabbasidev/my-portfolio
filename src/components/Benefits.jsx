@@ -213,26 +213,25 @@ function Benefits() {
                 lineHeight={1.7}
                 sx={{ color: "#64748B" }}
               >
-                👋 Hello! I'm <b>Noman Gul</b>, a passionate
-                <b> Full Stack Developer </b> based in Karachi, Pakistan. With a
-                focus on front-end development, I thrive on creating seamless
-                and visually appealing web and mobile experiences. My expertise
-                lies in crafting user interfaces that not only meet functional
-                requirements but also elevate the overall user experience. 🚀 As
-                a seasoned professional in the tech industry, I've honed my
-                skills to not just meet but exceed the expectations of clients
-                and users alike. I take pride in my work as a frontend
-                specialist, bringing ideas to life through code and design. 💻
-                Currently, I'm actively involved in growing my freelance team,
-                where we collaborate to deliver cutting-edge solutions. Being
-                part of the dynamic world of technology, I stay abreast of the
-                latest trends, ensuring that my work remains innovative and
-                future-ready. 🌐 When it comes to communication, I'm dedicated
-                to enhancing my skills continually. Effective communication is
-                not just a goal for me; it's a journey I embrace to ensure
-                seamless collaboration with teams and clients. ✨ Let's connect
-                and explore the possibilities of creating exceptional digital
-                experiences together!
+                👋 Hello! I'm <b>Umair Abbasi</b>, a passionate
+                <b> front-end development </b> based in Karachi, I thrive on
+                creating seamless and visually appealing web and mobile
+                experiences. My expertise lies in crafting user interfaces that
+                not only meet functional requirements but also elevate the
+                overall user experience. 🚀 As a seasoned professional in the
+                tech industry, I've honed my skills to not just meet but exceed
+                the expectations of clients and users alike. I take pride in my
+                work as a frontend specialist, bringing ideas to life through
+                code and design. 💻 Currently, I'm actively involved in growing
+                my freelance team, where we collaborate to deliver cutting-edge
+                solutions. Being part of the dynamic world of technology, I stay
+                abreast of the latest trends, ensuring that my work remains
+                innovative and future-ready. 🌐 When it comes to communication,
+                I'm dedicated to enhancing my skills continually. Effective
+                communication is not just a goal for me; it's a journey I
+                embrace to ensure seamless collaboration with teams and clients.
+                ✨ Let's connect and explore the possibilities of creating
+                exceptional digital experiences together!
               </Typography>
             </Box>
           </Grid>

@@ -66,7 +66,7 @@ function ResponsiveAppBar() {
               cursor: "pointer",
             }}
           >
-            Gimme Source Code
+           Umair Dev
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -126,7 +126,7 @@ function ResponsiveAppBar() {
               // px: 0.5,
             }}
           >
-            Gimme Source Code
+           Umair Dev
           </Typography>
           <Box
             sx={{

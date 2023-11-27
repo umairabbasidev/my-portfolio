@@ -5,10 +5,11 @@ import PersonIcon from "@mui/icons-material/Person";
 
 import Image from "./img/bracket.png";
 
-import { GitHub } from "@mui/icons-material";
+import { GitHub, WhatsApp } from "@mui/icons-material";
 import { LinkedIn } from "@mui/icons-material";
 import { Twitter } from "@mui/icons-material";
 import { Email } from "@mui/icons-material";
+// import { WhatsApp } from "@mui/icons-material";
 
 function Prices() {
   return (
@@ -155,7 +156,7 @@ function Prices() {
       <Box py={15} display="flex" flexDirection="column" alignItems="center">
         <Typography variant="h6" fontWeight={700} textAlign="center">
           <img src={Image} alt="" width={70} className="bracket" />
-          Gimme Source Code
+          Umair Dev
         </Typography>
 
         <Box
@@ -165,26 +166,26 @@ function Prices() {
           alignItems="center"
           py={3.5}
         >
-          <a href="https://github.com/NomanGul" target="_blank">
+          <a href="https://github.com/umairabbasidev" target="_blank">
             <GitHub sx={{ color: "orange", margin: "5px 0px" }} />{" "}
           </a>
           <a
-            href="https://www.linkedin.com/in/noman-gul/?originalSubdomain=pk"
+            href="https://www.linkedin.com/in/umairabbasidev/?originalSubdomain=pk"
             target="_blank"
           >
             <LinkedIn sx={{ color: "orange", margin: "5px 10px" }} />
           </a>
 
-          <a href="https://twitter.com/NomanGulKhan" target="_blank">
+          <a href="https://twitter.com/umairabbasidev" target="_blank">
             {" "}
             <Twitter sx={{ color: "orange", margin: "5px 10px" }} />{" "}
           </a>
 
-          <a href="mailto:nomangul2001@gmail.com" target="_blank">
+          <a href="mailto:muhammadumairabbasi637@gmail.com" target="_blank">
             <Email sx={{ color: "orange", margin: "5px 10px" }} />
           </a>
-          <a href="https://www.nomangul.com/" target="_blank">
-            <PersonIcon sx={{ color: "orange", margin: "5px 10px" }} />
+          <a href="https://wa.me/923302048095" target="_blank">
+            <WhatsApp sx={{ color: "orange", margin: "5px 10px" }} />
           </a>
         </Box>
       </Box>
@@ -207,7 +208,7 @@ function Prices() {
       </Box>
       <Box display="flex" justifyContent="center">
         <Typography color="#64748B" lineHeight={6} variant="body2">
-          © 2023 Gimme Source Code. All rights reserved.
+          © 2023 Umair Dev. All rights reserved.
         </Typography>
       </Box>
     </>

@@ -1,5 +1,5 @@
 import { Container, Typography, Box, Button, Grid } from "@mui/material";
-import { Email, GitHub, LinkedIn, Twitter } from "@mui/icons-material";
+import { Email, GitHub, LinkedIn, Twitter,WhatsApp } from "@mui/icons-material";
 import PersonIcon from "@mui/icons-material/Person";
 
 import React from "react";
@@ -44,26 +44,26 @@ function HeroSectionOne() {
             Crafting Code and Building the Future: Kick-ass Software for
             Startups, One Flat Fee.
             <Box className="icon">
-              <a href="https://github.com/NomanGul" target="_blank">
+              <a href="https://github.com/umairabbasidev" target="_blank">
                 <GitHub sx={{ color: "orange", margin: "5px 0px" }} />{" "}
               </a>
               <a
-                href="https://www.linkedin.com/in/noman-gul/?originalSubdomain=pk"
+                href="https://www.linkedin.com/in/umairabbasidev/?originalSubdomain=pk"
                 target="_blank"
               >
                 <LinkedIn sx={{ color: "orange", margin: "5px 10px" }} />
               </a>
 
-              <a href="https://twitter.com/NomanGulKhan" target="_blank">
+              <a href="https://twitter.com/umairabbasidev" target="_blank">
                 {" "}
                 <Twitter sx={{ color: "orange", margin: "5px 10px" }} />{" "}
               </a>
 
-              <a href="mailto:nomangul2001@gmail.com" target="_blank">
+              <a href="mailto:muhammadumairabbasi637@gmail.com" target="_blank">
                 <Email sx={{ color: "orange", margin: "5px 10px" }} />
               </a>
-              <a href="https://www.nomangul.com/" target="_blank">
-                <PersonIcon sx={{ color: "orange", margin: "5px 10px" }} />
+              <a href="https://wa.me/923302048095" target="_blank">
+                <WhatsApp sx={{ color: "orange", margin: "5px 10px" }} />
               </a>
             </Box>
           </Typography>
@@ -87,10 +87,11 @@ function HeroSectionOne() {
       <Grid item>
         <Box>
           <img
-            src="https://futureideas.dev/mockup.jpg"
+            // src="https://futureideas.dev/mockup.jpg"
+            src="https://avatars.githubusercontent.com/u/137234804?v=4"
             alt=""
             width={320}
-            height={450}
+            // height={450}
             style={{ borderRadius: 15, boxShadow: "-3px -2px 8px gray" }}
           />
         </Box>
