@@ -1,5 +1,11 @@
 import { Container, Typography, Box, Button, Grid } from "@mui/material";
-import { Email, GitHub, LinkedIn, Twitter,WhatsApp } from "@mui/icons-material";
+import {
+  Email,
+  GitHub,
+  LinkedIn,
+  Twitter,
+  WhatsApp,
+} from "@mui/icons-material";
 import PersonIcon from "@mui/icons-material/Person";
 
 import React from "react";
@@ -78,7 +84,14 @@ function HeroSectionOne() {
                 margin: { xs: "auto", md: "0" },
               }}
             >
-              Book a Call
+              <a
+                href="https://cal.com/muhammadumair-abbasi-dev"
+                className="my"
+                target="_blank"
+              >
+                {" "}
+                Book a Call{" "}
+              </a>
             </Button>
           </Box>
         </Container>

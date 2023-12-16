@@ -46,7 +46,7 @@ function Prices() {
         sx={{ px: { xs: 6.195, md: 20 } }}
       >
         <Grid item md={4}>
-          <Paper elevation={2} sx={{ p: 4, borderRadius: 3.5 }}>
+          <Paper elevation={2} sx={{ p: 3, borderRadius: 3.5 }}>
             <Typography variant="h6" component="h2" fontWeight={600}>
               Landing Page
             </Typography>
@@ -71,14 +71,20 @@ function Prices() {
                 marginTop: 2,
               }}
             >
-              Book Discover Call
+              <a
+                href="https://cal.com/muhammadumair-abbasi-dev"
+                className="my"
+                target="_blank"
+              >
+                Book Discover Call
+              </a>
             </Button>
           </Paper>
         </Grid>
         <Grid item md={4}>
           <Box>
-            <Paper elevation={2} sx={{ p: 4, borderRadius: 3.5 }}>
-              <Typography variant="h6" component="h2" fontWeight={600}>
+            <Paper elevation={2} sx={{ p: 3.40, borderRadius: 3.5 }}>
+              <Typography variant="body" component="h2" fontWeight={600} fontSize={20}>
                 Chrome Extension
               </Typography>
 
@@ -107,7 +113,13 @@ function Prices() {
                   marginTop: 2,
                 }}
               >
-                Book Discover Call
+                <a
+                  href="https://cal.com/muhammadumair-abbasi-dev"
+                  className="my"
+                  target="_blank"
+                >
+                  Book Discover Call
+                </a>
               </Button>
             </Paper>
           </Box>
@@ -115,7 +127,7 @@ function Prices() {
 
         <Grid item md={4}>
           <Box>
-            <Paper elevation={2} sx={{ p: 4, borderRadius: 3.5 }}>
+            <Paper elevation={2} sx={{ p: 3, borderRadius: 3.5 }}>
               <Typography variant="h6" component="h2" fontWeight={600}>
                 MVP
               </Typography>
@@ -146,7 +158,13 @@ function Prices() {
                 }}
                 q
               >
-                Book Discover Call
+                <a
+                  href="https://cal.com/muhammadumair-abbasi-dev"
+                  className="my"
+                  target="_blank"
+                >
+                  Book Discover Call
+                </a>
               </Button>
             </Paper>
           </Box>

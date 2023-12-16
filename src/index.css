@@ -1,16 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Red+Hat+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Red+Hat+Display&display=swap");
 
-
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Josefin Sans' !important;
+  font-family: "Josefin Sans" !important;
   /* text-decoration: none; */
 }
 
-
-a{
+a {
   text-decoration: none;
   /* color:"#64748B" !important; */
   /* background-color: red; */
@@ -20,21 +18,19 @@ a{
   /* color: rgb(125, 110, 110); */
   color: gray;
 }
-a:hover{
-  text-decoration:underline;
+a:hover {
+  text-decoration: underline;
 }
 
-.icon:hover{
-  color:"brown";
+.icon:hover {
+  color: "brown";
   cursor: pointer;
 }
 
-.animation{
-
+.animation {
 }
 
-
-.animation:hover{
+.animation:hover {
   /* transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)); */
 
   /* transition-duration: .3s;
@@ -47,9 +43,16 @@ a:hover{
   /* transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)); */
 }
 
-.bracket{
+.bracket {
   /* background-color: red; */
   /* margin-top: -4rem; */
   margin-bottom: -1.9rem;
 }
 
+.my {
+  color: white;
+}
+
+.my:hover {
+  text-decoration: none;
+}

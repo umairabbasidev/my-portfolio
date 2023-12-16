@@ -66,7 +66,7 @@ function ResponsiveAppBar() {
               cursor: "pointer",
             }}
           >
-           Umair Dev
+            Umair Dev
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -126,7 +126,7 @@ function ResponsiveAppBar() {
               // px: 0.5,
             }}
           >
-           Umair Dev
+            Umair Dev
           </Typography>
           <Box
             sx={{
@@ -160,9 +160,19 @@ function ResponsiveAppBar() {
           <Box sx={{ display: { xs: "none", md: "flex" } }} elevation={0}>
             <Button
               variant="contained"
-              sx={{ backgroundColor: "orange", textTransform: "capitalize" }}
+              sx={{
+                backgroundColor: "orange",
+                textTransform: "capitalize",
+                color: "white",
+              }}
             >
-              Book Discover Call
+              <a
+                href="https://cal.com/muhammadumair-abbasi-dev"
+                className="my"
+                target="_blank"
+              >
+                Book Discover Call
+              </a>
             </Button>
           </Box>
           {/* <Box sx={{ flexGrow: 0 }}>
